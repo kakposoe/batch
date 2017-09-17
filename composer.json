@@ -1,0 +1,17 @@
+{
+    "name": "kakposoe/BatchImages",
+    "description": "Command Line batch image processor",
+    "keywords": ["images", "cmdline"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Batch\\": "src"
+        }
+    },
+    "require": {
+        "spatie/image": "^1.3",
+        "league/climate": "^3.2",
+        "phpunit/php-timer": "^1.0",
+        "myth/timer": "dev-master"
+    }
+}
